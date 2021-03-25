@@ -1,27 +1,25 @@
 package com.company;
 
 
-import com.company.exeptions.MyArrayDataException;
-import com.company.exeptions.MyArraySizeException;
+import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args) throws MyArraySizeException, MyArrayDataException {
+    public static void main(String[] args) {
 
-        String[][] arr = {
-                {"7","9","7","5"},
-                {"4","5","4","1"},
-                {"6","1","3","8"},
-                {"2","7","1","4"}
-        };
+        //Задание 1
+        List<String> array = new ArrayList<>(Arrays.asList(
+                "Мадара", "Иначи", "Саске", "Какаши", "Гаара",
+                "Джирайа", "Обито", "Мадара", "Джирайа", "Обито",
+                "Гарра", "Сакура", "Мадара", "Джирайа", "Обито",
+                "Саске", "Мадара", "Нагато", "Какаши", "Мадара"));
 
+        CollectionCalculator.printNonRepetitiveElements(array);
+        CollectionCalculator.printRepetitiveElements(array);
 
-        Connector.checkIsArr4x4(arr);
-        Connector.calculateArrSum(arr);
-
+        //Задание 2
+        //Я допишу до понедельника
     }
-
-
 }
 
 
