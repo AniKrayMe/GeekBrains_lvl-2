@@ -18,7 +18,13 @@ public class Main {
         CollectionCalculator.printRepetitiveElements(array);
 
         //Задание 2
-        //Я допишу до понедельника
+        Phonebook phonebook = new Phonebook();
+        phonebook.add("Старк", 1234456L);
+        phonebook.add("Старк", 54654L);
+        phonebook.add("Смит", 5487546L);
+        phonebook.add("Джонсон", 48546L);
+
+        phonebook.get("Старк");
     }
 }
 

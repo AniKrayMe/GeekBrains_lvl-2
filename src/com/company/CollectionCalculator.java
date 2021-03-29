@@ -24,6 +24,10 @@ public class CollectionCalculator {
         array.forEach(a -> duplicatedArray.put(a, duplicatedArray.getOrDefault(a, 0) + 1));
         duplicatedArray.forEach((k, v) -> System.out.println(v + " times " + k));
     }
+
+
+
+
 }
 
 
