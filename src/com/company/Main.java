@@ -1,8 +1,16 @@
 package com.company;
 
+
+import java.util.*;
+
 public class Main {
 
     public static void main(String[] args) {
-	//Здесь будут домашки с курса №2
+
+        //Я неуспел сделать, обешаю сделать насколько смогу быстро
+        //Здесь будет домашка №4
     }
 }
+
+
+
